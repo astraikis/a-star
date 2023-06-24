@@ -15,9 +15,9 @@ WHITE = 0xECEFF4
 BLACK = 0x2E3440
 PURPLE = 0xB48EAD
 ORANGE = 0xD08770
+TURQUOISE = 0x8FBCBB
 GREY = 0xD8DEE9
 LIGHT_GREY = 0xE5E9F0
-TURQUOISE = 0x8FBCBB
 
 class Node:
     def __init__(self, row: int, col: int):
