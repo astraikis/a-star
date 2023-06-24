@@ -55,6 +55,7 @@ class Node:
         pygame.draw.rect(WIN, self.color, (self.x, self.y, NODE_WIDTH, NODE_WIDTH))
 
     def get_pos(self) -> tuple[int, int]:
+        """get row and col"""
         return self.row, self.col
 
     def update_neighbors(self, grid: list[list]):
@@ -260,5 +261,4 @@ def main():
 
     pygame.quit()
     
-
 main()
